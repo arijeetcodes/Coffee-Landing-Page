@@ -9,33 +9,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Landing Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Nav Bar -->
     <section>
       <nav>
-        <h1 class="logo">Logo</h1>
+        <h1 class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          BrewLabs
+        </h1>
 
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#our-story">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+            <a href="#home">Home</a>
+          </li>
+          <li data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+            <a href="#our-story">About</a>
+          </li>
+          <li data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+            <a href="#menu">Menu</a>
+          </li>
+          <li data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </section>
 
     <!-- Header Section -->
     <header class="header">
-      <h1 class="main-headings" id="home">START YOUR DAY</h1>
-      <h1 class="primary-heading">WITH OUR <span class="typewriter-text"></span><label for=""></label></h1>
-      <button class="main-btn">Shop Now</button>
+      <h1
+        class="main-headings"
+        id="home"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-delay="700"
+      >
+        START YOUR DAY
+      </h1>
+      <h1
+        class="primary-heading"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-delay="900"
+      >
+        WITH OUR <span class="typewriter-text"></span><label for=""></label>
+      </h1>
+      <button
+        class="main-btn"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+        data-aos-delay="100"
+      >
+        Shop Now
+      </button>
     </header>
 
     <!-- Our Story Page -->
     <section id="our-story">
       <div class="img-container">
-        <div class="img"></div>
+        <div class="img" data-aos="zoom-out" data-aos-duration="3000"></div>
       </div>
 
       <div class="section-content">
@@ -51,7 +84,13 @@
           numquam. Vitae, quia accusamus.
         </p>
 
-        <button>Learn More</button>
+        <button
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+        >
+          Learn More
+        </button>
       </div>
     </section>
 
@@ -73,10 +112,20 @@
           provident cum!
         </p>
 
-        <button>Learn More</button>
+        <button
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+        >
+          Learn More
+        </button>
       </div>
 
-      <section class="img-container">
+      <section
+        class="img-container"
+        data-aos="zoom-out"
+        data-aos-duration="3000"
+      >
         <img src="Images/2.png" class="img-2" />
       </section>
     </section>
@@ -87,7 +136,12 @@
 
       <section class="cards">
         <div class="card">
-          <div class="card-img img-one"></div>
+          <div
+            class="card-img img-one"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          ></div>
           <div class="card-title">
             <h1>Non-Coffee</h1>
           </div>
@@ -100,7 +154,12 @@
         </div>
 
         <div class="card">
-          <div class="card-img img-two"></div>
+          <div
+            class="card-img img-two"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="600"
+          ></div>
           <div class="card-title">
             <h1>Coffee</h1>
           </div>
@@ -108,23 +167,23 @@
             <p>Espresso</p>
             <p>Americano</p>
             <p>Cappuccino</p>
-            <p>Latte</p>
-            <p>Flat White</p>
             <p>Mocha</p>
           </div>
         </div>
 
         <div class="card">
-          <div class="card-img img-three"></div>
+          <div
+            class="card-img img-three"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          ></div>
           <div class="card-title">
             <h1>Special-Coffee</h1>
           </div>
           <div class="items">
-            <p>Classic Cold Brew</p>
-            <p>Flavoured Cold Brew</p>
-            <p>Vanilla Iced Latte</p>
-            <p>Caramel Iced Latte</p>
-            <p>Hazelnut Iced Latte</p>
+            <p>Cold Brew</p>
+            <p>Iced Latte</p>
             <p>Affogato</p>
             <p>Signature House Blend</p>
           </div>
@@ -161,10 +220,17 @@
       <hr class="hr-two" />
 
       <p class="para">
-        Made with Love💌 | Created by <a href="https://github.com/arijeetcodes" target="_blank">Arijeet Mondal</a> & Inspired
-        from <a href="https://github.com/HuXn-WebDev" target="_blank">HuXn WebDev</a> | &copy; 2026 <span>Under Fair Use</span>
+        Made with Love💌 | Created by
+        <a href="https://github.com/arijeetcodes" target="_blank"
+          >Arijeet Mondal</a
+        >
+        | &copy; Copyright <span>2026</span>
       </p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
     <script src="typewriter.js"></script>
   </body>
 </html>
