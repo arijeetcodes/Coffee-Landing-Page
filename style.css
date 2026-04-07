@@ -44,7 +44,7 @@ nav {
   font-family: sans-serif;
   /* font-family set to sans serif */
   padding-top: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   /* gives a padding of 15px to the top */
 }
 li {
@@ -123,7 +123,7 @@ li a:hover {
 .main-btn {
   position: absolute;
   /* lifts up the button element */
-  bottom: 2rem;
+  bottom: -25px;
   /* gives a space of 2rem from the bottom */
   padding: 10px 30px;
   /* gives a padding of 10px top-bottom and 30px left-right */
@@ -339,6 +339,10 @@ footer p {
 span {
   color: var(--main-color);
 }
+hr {
+  border-color: var(--main-color);
+  width: 100%;
+}
 .para {
   color: #fff;
   /* gives color white */
@@ -349,10 +353,10 @@ span {
   margin-top: 20px;
 }
 .para a {
-  color: #deab5f;
+  color: var(--main-color);
 }
 .para span {
-  color: #deab5f;
+  color: var(--main-color);
 }
 /* Footer End */
 
@@ -394,7 +398,7 @@ span {
   .title-three {
     margin: 15% 45%;
   }
-  .para {
-    display: none;
+  .hr-two {
+    width: 100%;
   }
 }
