@@ -8,14 +8,29 @@
 
 /* Utility Styles */
 button {
-  padding: 10px 30px;
-  /* text padding of 10px top-bottom and 30px left-right */
+  height: 5vh;
+  padding: 0 30px;
+  /* text padding of 0px top-bottom and 30px left-right */
   background: var(--main-color);
   /* background color of set function */
   border: none;
+  outline: none;
   /* no border */
+  font-size: 100%;
+  font-weight: 700;
+  border-radius: 5px;
   cursor: pointer;
   /* will turn cursor into pointer when hovered */
+  transition: all 0.4s ease;
+}
+button:hover {
+  scale: 1.1;
+  padding: 0 30px;
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+  background-color: black;
+  font-weight: 700;
+  box-shadow: 0 0 40px var(--main-color);
 }
 
 /* Resets */
@@ -353,7 +368,6 @@ li a:hover {
   /* gives font-family */
 }
 .card button {
-  margin-top: 0;
   margin-bottom: 50px;
 }
 /* Products End */
