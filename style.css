@@ -69,6 +69,9 @@ nav {
   padding-bottom: 15px;
   /* gives a padding of 15px to the top */
 }
+nav .logo span {
+  color: var(--main-color);
+}
 li {
   display: inline;
   /* sets the list elements in one line */
@@ -84,9 +87,36 @@ li a {
   /* gives a margin of 40px to the left of each element */
   padding-bottom: 10px;
   /* gives a padding of 10px to the bottom for any hover effect */
+  position: relative;
+  /* we create a canvas area using position relative to limit the size of the underline */
+  font-size: 1.5rem;
+  /* we set the font size of the links to 1.5rem */
+  font-weight: bold;
+  /* we add a depth to the words using bold font-weight */
+  transition: 0.3s linear;
+}
+li a::before {
+  position: absolute;
+  /* this fixes the range of the underline */
+  content: "";
+  bottom: 5px;
+  left: 0;
+  /* using left or right we can decide the direction of the origin of the underline */
+  width: 0%;
+  /* keeping the width at 0% makes the underline disappeared before hovering */
+  height: 3.5px;
+  /* used to set the height of the underline */
+  background-color: var(--main-color);
+  /* used to set the color of the underline */
+  transition: 0.2s linear;
+  /* used to set the duration of underline hovering */
+}
+li a:hover::before {
+  width: 100%;
+  /* this makes the hovering underline from 0(disappear) to 100(fully reappear) */
 }
 li a:hover {
-  border-bottom: 2px solid var(--main-color);
+  color: var(--main-color);
 }
 /* Nav End */
 
