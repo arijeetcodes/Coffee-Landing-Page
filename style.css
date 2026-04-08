@@ -191,12 +191,6 @@ li a:hover {
 .title span {
   color: #deab5f;
 }
-.line {
-  width: 100px;
-  height: 0px;
-  background: #fff;
-  transform: translateX(-120px);
-}
 .section-content p {
   max-width: 500px;
   color: #fff;
@@ -247,7 +241,8 @@ li a:hover {
 }
 .title-three {
   font-size: 4rem;
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
+  margin-left: 40%;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
@@ -268,7 +263,7 @@ li a:hover {
   /* gives a border of 2px of color */
   padding: 0 20px;
   /* 0px padding top-bottom and 20px padding left-right */
-  height: 400px;
+  height: 450px;
   /* height of the menu cards */
   width: 300px;
   /* width of the menu cards */
@@ -326,6 +321,10 @@ li a:hover {
   /* gives a margin of 20px top-bottom 0px left-right */
   font-family: sans-serif;
   /* gives font-family */
+}
+.card button {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 /* Products End */
 
