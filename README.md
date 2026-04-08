@@ -1,4 +1,4 @@
-# ☕ BrewLabs – Café Landing Page
+<img width="1919" height="83" alt="Screenshot 2026-04-08 211348" src="https://github.com/user-attachments/assets/22c16198-bf8f-4cea-834d-db4ffacd08f0" /># ☕ BrewLabs – Café Landing Page
 
 A modern and responsive **café landing page** built using **HTML, CSS, and JavaScript**. This project focuses on clean UI design, smooth animations, and interactive user experience.
 
@@ -7,6 +7,14 @@ A modern and responsive **café landing page** built using **HTML, CSS, and Java
 ## 🚀 Live Preview
 
 *https://youtu.be/QpAaCJ1cqq0*
+
+<img width="1919" height="83" alt="Screenshot 2026-04-08 211348" src="https://github.com/user-attachments/assets/913e17bd-a3d3-4f2d-b891-95f66eda149f" />
+<img width="1919" height="999" alt="Screenshot 2026-04-08 211401" src="https://github.com/user-attachments/assets/2457dd48-2b39-43e8-8c1d-aceb929a76f7" />
+<img width="1919" height="1079" alt="Screenshot 2026-04-08 211415" src="https://github.com/user-attachments/assets/146a2d51-fd27-41a1-9224-41b2c9a8c7ae" />
+<img width="1919" height="989" alt="Screenshot 2026-04-08 211439" src="https://github.com/user-attachments/assets/6acd1853-662c-4174-800a-6677a9a30f40" />
+<img width="1919" height="567" alt="Screenshot 2026-04-08 211448" src="https://github.com/user-attachments/assets/fc35e7e2-2254-40bf-91cc-6e7fb1842be4" />
+
+
 
 ---
 
@@ -47,8 +55,6 @@ A modern and responsive **café landing page** built using **HTML, CSS, and Java
 
 ## 🧠 Inspiration & Credits
 
-* 🎥 Café Landing Page Tutorial
-* 🎥 Advanced CSS & Transitions Reference
 * 🙌 Special thanks to:
 
   * **HuXn WebDev (YouTube)**
