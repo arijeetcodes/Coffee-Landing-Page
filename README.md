@@ -1,4 +1,4 @@
-#☕ BrewLabs – Café Landing Page
+# ☕ BrewLabs – Café Landing Page
 
 A modern and responsive **café landing page** built using **HTML, CSS, and JavaScript**. This project focuses on clean UI design, smooth animations, and interactive user experience.
 
