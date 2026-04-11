@@ -6,7 +6,7 @@ A modern and responsive **café landing page** built using **HTML, CSS, and Java
 
 ## 🚀 Live Preview
 
-*https://youtu.be/QpAaCJ1cqq0*
+*https://youtu.be/A3_McN0Wnn4*
 
 <img width="1919" height="83" alt="Screenshot 2026-04-08 211348" src="https://github.com/user-attachments/assets/913e17bd-a3d3-4f2d-b891-95f66eda149f" />
 <img width="1919" height="999" alt="Screenshot 2026-04-08 211401" src="https://github.com/user-attachments/assets/2457dd48-2b39-43e8-8c1d-aceb929a76f7" />
